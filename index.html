@@ -1,108 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="./app.js"></script>
     <title>About Me Page</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- header -->
     <header>
-        
-<nav>
-    <img src="./img/logo.png" alt="Logo Image" class="nav-image">
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+      <nav>
+        <img src="./img/logo.png" alt="Logo Image" class="nav-image" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- main -->
     <main>
-        <div class="container">
-                <div class="about-heading" id="about">About Me!
-                <div class="about-section">
-                    <p class="about-text">
-                        My love affair with designing started <br>
-                         when I was a child using Deluxe Paint on the Amiga, <br>
-                        I tried to design ‘Andy Warhol’ coke cans and the Guns N’ Roses <br> 
-                        band logo, while also making small animations. <br><br>
-                        I started to write HTML and CSS code from books I borrowed from <br>
-                        the local library, additionally, I was given the advice to learn to code <br>
-                        instead of using Macromedia Dreamweaver and Adobe software to design my <br> webpages. <br><br>
-                        Moreover, this led me to start training in the PHP language at Zend (I completed both level one and two), 
-                        I also started to learn front-end web development with the Coursera company. 
-                    </p>
-                        <img src="./img/soup-can.jpg" alt="soup-can image" class="soup-image">
-                </div> <!-- end of about section div -->
-            </div> <!-- end of about heading div -->
+      <div class="container">
+        <div class="about-heading" id="about">
+          About Me!
+          <div class="about-section">
+            <p class="about-text">
+              My love affair with designing started <br />
+              when I was a child using Deluxe Paint on the Amiga, <br />
+              I tried to design ‘Andy Warhol’ coke cans and the Guns N’ Roses
+              <br />
+              band logo, while also making small animations. <br /><br />
+              I started to write HTML and CSS code from books I borrowed from
+              <br />
+              the local library, additionally, I was given the advice to learn
+              to code <br />
+              instead of using Macromedia Dreamweaver and Adobe software to
+              design my <br />
+              webpages. <br /><br />
+              Moreover, this led me to start training in the PHP language at
+              Zend (I completed both level one and two), I also started to learn
+              front-end web development with the Coursera company.
+            </p>
+            <img
+              src="./img/soup-can.jpg"
+              alt="soup-can image"
+              class="soup-image"
+            />
+          </div>
+          <!-- end of about section div -->
+        </div>
+        <!-- end of about heading div -->
 
+        <!-- Image Galley and Movie Quiz. -->
 
-            <!-- Image Galley and Movie Quiz. -->
-
-            <div class="movie-heading">My Favourite Movies!!</div>
-            
-            <!-- 
-
-                (1) Enter div class called card
-                (2) Enter img src tag
-                (3) Enter card-body tag
-                (4) Enter p tag for Movie title
-
-                (5) Enter heading called take my quiz?
-                (6) Add button for user to click to start quiz
-            
-            
-            -->
-
-
-
-
-
+        <div class="movie-heading">My Favourite Movies!!</div>
+        <div class="image-container">
+          <script>
+            cardCode();
+          </script>
+        </div>
         <!-- Contact Form Section -->
         <div class="contact-heading" id="contact">Contact Me!</div>
 
         <div class="contact">
-            <label for="FullName">Enter Name</label>
-            <input type="text" id="fullName" name="fullName">
-            
+          <label for="FullName">Enter Name</label>
+          <input type="text" id="fullName" name="fullName" />
 
-            <label for="email">Enter email</label>
-            <input type="text" id="email" name="email">
+          <label for="email">Enter email</label>
+          <input type="text" id="email" name="email" />
 
-            <label for="subject">Enter Message</label>
-            <textarea id="subject" name="subject"></textarea>
-        </div> <!-- end of contact-->
-
-    </div> <!-- end of container div -->
-
-
-
-    </main> <!-- end of main div -->
+          <label for="subject">Enter Message</label>
+          <textarea id="subject" name="subject"></textarea>
+        </div>
+        <!-- end of contact-->
+      </div>
+      <!-- end of container div -->
+    </main>
+    <!-- end of main div -->
 
     <!-- footer -->
     <footer>
-
-        <div class="container">
-            <div class="footer-text">
-                &copy; Aaron Smith 2023
-                <a href="https://www.linkedin.com/in/aaron-smith-7bb11514b/" target="_blank"><img src="./img/linkedin_icon.png" alt="LinkedIn Image" class="linkedIn-img"></a>
-                <a href="https://www.instagram.com/aaron_bruce_1986/"target="_blank"><img src="./img/instagram _icon.png" alt="Instagram Image" class="instagram-img"></a>
-            </div> <!-- end of footer text -->
-
-               
+      <div class="container">
+        <div class="footer-text">
+          &copy; Aaron Smith 2023
+          <a
+            href="https://www.linkedin.com/in/aaron-smith-7bb11514b/"
+            target="_blank"
+            ><img
+              src="./img/linkedin_icon.png"
+              alt="LinkedIn Image"
+              class="linkedIn-img"
+          /></a>
+          <a href="https://www.instagram.com/aaron_bruce_1986/" target="_blank"
+            ><img
+              src="./img/instagram _icon.png"
+              alt="Instagram Image"
+              class="instagram-img"
+          /></a>
         </div>
-
-
+        <!-- end of footer text -->
+      </div>
     </footer>
-    <script>validateName();</script>
-    <script>validateEmail();</script>
-    <script>subjectMessage();</script>
-</body>
-
+    <script>
+      validateName();
+    </script>
+    <script>
+      validateEmail();
+    </script>
+    <script>
+      subjectMessage();
+    </script>
+  </body>
 </html>
