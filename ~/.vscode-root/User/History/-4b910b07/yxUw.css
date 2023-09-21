@@ -1,0 +1,177 @@
+html {
+
+}
+
+.container {
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+body {
+height: 100vh;
+margin:0;
+}
+
+header {
+    background-color: #343a40;
+    max-width: 100%;
+    height: 60px;
+   
+}
+
+.nav-image {
+    width: 35px;
+    height: 35px;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+ul {
+    margin-right: 1%;
+    display: flex;
+    justify-content: end;
+    margin-top: -4%;
+}
+
+li {
+list-style: none;
+margin-top: -1%;
+padding: 2%;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+    font-family: "nav-text";
+    font-size: 32px;
+}
+
+li > a:hover {
+    color: red;
+}
+
+/* Main Section */
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-heading {
+    font-family: "about-heading-text";
+font-size: 45px;
+margin-top: 5%;
+color: #343a40;
+}
+
+.about-text {
+    font-family: "about-text";
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+img.soup-image {
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+img.soup-image:hover {
+	-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+}
+
+/* Contact */
+.contact-heading {
+    margin-top: 10%;
+    text-align: center;
+    font-family: "about-heading-text";
+    font-size: 45px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top:5%;
+  }
+
+
+  /* footer */
+footer {
+    background-color: #343a40;
+    max-width: 100%;
+    height: 60px;
+    margin-top: 10%;
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 2%;
+}
+
+.linkedIn-img, .instagram-img {
+    float: right;
+padding: 1%;
+height: 25px;
+margin-top: -1%;
+}
+
+/* fonts */
+@font-face {
+    font-family: "nav-text";
+    src: url(./fonts/nav.ttf);
+}
+
+@font-face {
+    font-family: "about-heading-text";
+    src: url(./fonts/about-me.ttf);
+}
+
+@font-face {
+    font-family: "about-text";
+    src: url(./fonts/about-text.ttf);
+}
+
+/* Media Queries*/
+@media screen and (min-width: 1644px) {
+    .contact {
+        margin-bottom: 10%;
+    }
+
+    footer {
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+    }
+  }
