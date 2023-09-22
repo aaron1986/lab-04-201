@@ -4,9 +4,7 @@
         "workspaces": {
             "file:///home/user/webpages_tech/lab-04-201": "__default__profile__"
         },
-        "emptyWindows": {
-            "1695294771050": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "735cc3dd46d3c0f2fd2b2617e6181a11c8371f461773994570256e7e5799a66c",
@@ -17,11 +15,7 @@
                 "folderUri": "file:///home/user/webpages_tech/lab-04-201"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1695294771050"
-            }
-        ]
+        "emptyWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -1648,10 +1642,10 @@
             "backupPath": "/home/user/webpages_tech/lab-04-201/~/.vscode-root/Backups/101481f3cdb51c0e636b7de2b42febfa",
             "uiState": {
                 "mode": 0,
-                "x": 70,
-                "y": 64,
+                "x": 221,
+                "y": 154,
                 "width": 1024,
-                "height": 736
+                "height": 542
             }
         },
         "openedWindows": []

@@ -1,0 +1,12 @@
+2023-09-21 15:47:44.713 [error] [Extension Host] Failed to load message bundle for file /root/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.3/out/extension
+2023-09-21 15:47:44.750 [error] [Extension Host] Failed to load message bundle for file /root/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.3/out/extension
+2023-09-21 15:47:44.750 [error] [Extension Host] Failed to load message bundle for file /root/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.3/out/extension
+2023-09-21 15:47:44.750 [error] [Extension Host] Failed to load message bundle for file /root/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.3/out/extension
+2023-09-21 15:47:44.750 [error] [Extension Host] Failed to load message bundle for file /root/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.3/out/extension
+2023-09-21 15:47:44.750 [error] [Extension Host] Failed to load message bundle for file /root/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.3/out/extension
+2023-09-21 15:47:44.751 [error] [Extension Host] Failed to load message bundle for file /root/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.3/out/extension
+2023-09-21 15:47:44.751 [error] [Extension Host] Failed to load message bundle for file /root/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.3/out/extension
+2023-09-21 15:47:56.818 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/user/webpages_tech/lab-04-201/index.html' (Error: File Modified Since) file:///home/user/webpages_tech/lab-04-201/index.html
+2023-09-21 15:47:59.120 [info] [perf] Render performance baseline is 271ms
+2023-09-21 15:48:02.193 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/user/webpages_tech/lab-04-201/app.js' (Error: File Modified Since) file:///home/user/webpages_tech/lab-04-201/app.js
+2023-09-21 15:49:00.330 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/user/webpages_tech/lab-04-201/index.html' (Error: File Modified Since) file:///home/user/webpages_tech/lab-04-201/index.html

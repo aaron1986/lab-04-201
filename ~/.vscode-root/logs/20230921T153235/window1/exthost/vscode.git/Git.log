@@ -1,0 +1,23 @@
+2023-09-21 15:32:41.354 [info] Log level: Info
+2023-09-21 15:32:41.354 [info] Validating found git in: "git"
+2023-09-21 15:32:41.354 [info] Using git "2.34.1" from "git"
+2023-09-21 15:32:41.354 [info] > git rev-parse --show-toplevel [75ms]
+2023-09-21 15:32:41.373 [info] > git rev-parse --git-dir --git-common-dir [33ms]
+2023-09-21 15:32:41.442 [info] Open repository: /home/user/webpages_tech/lab-04-201
+2023-09-21 15:32:42.492 [info] > git rev-parse --show-toplevel [930ms]
+2023-09-21 15:32:42.510 [info] > git config --get commit.template [1002ms]
+2023-09-21 15:32:42.664 [info] > git rev-parse --show-toplevel [79ms]
+2023-09-21 15:32:42.772 [info] > git rev-parse --show-toplevel [54ms]
+2023-09-21 15:32:42.774 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [113ms]
+2023-09-21 15:32:42.968 [info] > git status -z -uall [159ms]
+2023-09-21 15:32:43.609 [info] > git check-ignore -v -z --stdin [333ms]
+2023-09-21 15:32:43.645 [info] > git config --get commit.template [498ms]
+2023-09-21 15:32:44.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [51ms]
+2023-09-21 15:32:44.882 [info] > git status -z -uall [709ms]
+2023-09-21 15:32:44.882 [info] > git check-ignore -v -z --stdin [128ms]
+2023-09-21 15:32:48.595 [info] > git show --textconv :app.js [26ms]
+2023-09-21 15:32:48.601 [info] > git ls-files --stage -- /home/user/webpages_tech/lab-04-201/app.js [13ms]
+2023-09-21 15:32:48.632 [info] > git cat-file -s e2eba7a9c43a5237a1bc35f0537894b009394b5c [18ms]
+2023-09-21 15:33:08.884 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-09-21 15:33:08.885 [info] > git config --get commit.template [37ms]
+2023-09-21 15:33:08.907 [info] > git status -z -uall [11ms]
