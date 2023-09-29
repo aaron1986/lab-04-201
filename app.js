@@ -34,7 +34,7 @@
 //Function for image gallery with CSV data included
 function cardCode() {
   const numImages = 10;
-  const imageFolder = '/img/';
+  const imageFolder = './img/';
   const csvFile = './csv_files/Image_Links.csv';
 
   // Fetch CSV file
